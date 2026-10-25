@@ -1,0 +1,46 @@
+.promo-section{
+    background-color: black;
+    padding: 80px 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.content-wrapper{
+    max-width: 100%;
+}
+.subtitle{
+    display: block;
+    color: rgb(150, 104, 73);
+    letter-spacing: 2px;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+h1{
+    color: white;
+    font-family: sans-serif;
+    margin-bottom: 30px;
+}
+P{
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    margin-bottom: 30px;
+}
+.btn-cta{
+    display: inline-block;
+    background-color: darkgray;
+    color: black;
+    padding: 15px;
+}
+.btn-cta:hover{
+    background-color: white;
+}
+/*AJUSTES PARA MOVIL*/
+@media (max-width:600px){
+    h1{
+        font-size: 1.8rem;
+    }
+    .promo-section{
+        padding: 50px;
+    }
+    
+}
